@@ -2,6 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QVBoxLayout>
+#include <QLabel>
+#include <QListWidget>
+#include <QTextEdit>
+#include <QPushButton>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,5 +25,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    QVBoxLayout *vLayoutMenu;
+    QVBoxLayout *vLayoutContact;
+    QVBoxLayout *vLayoutChatContext;
+
+    //会话记录
+    QListWidget *chatHistory;
 };
 #endif // MAINWINDOW_H

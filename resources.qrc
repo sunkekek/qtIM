@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>resources/images/penguin.bmp</file>
         <file>resources/icons/btn_close.png</file>
+        <file>resources/icons/qq.jpg</file>
     </qresource>
 </RCC>

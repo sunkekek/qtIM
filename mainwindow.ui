@@ -6,42 +6,78 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>375</width>
-    <height>578</height>
+    <width>423</width>
+    <height>581</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>1</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>1</horstretch>
+     <verstretch>1</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>381</width>
-      <height>541</height>
+      <width>301</width>
+      <height>421</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,9,18">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,2,5">
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item>
-      <widget class="QListWidget" name="listWidget_2">
+      <widget class="QWidget" name="widgetMenu" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(46, 46, 46);</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QListWidget" name="listWidget">
+      <widget class="QWidget" name="widgetContact" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>1</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(226, 224, 223);</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QListWidget" name="listWidget_3">
+      <widget class="QWidget" name="widgetChatContext" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>1</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 127);</string>
+        <string notr="true">background-color: rgb(247, 247, 247);</string>
        </property>
       </widget>
      </item>
@@ -53,7 +89,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>375</width>
+     <width>423</width>
      <height>21</height>
     </rect>
    </property>
